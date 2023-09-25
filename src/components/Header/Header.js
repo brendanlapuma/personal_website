@@ -6,10 +6,9 @@ const Header = ({ toggle }) => {
     <div className="Container" style={{padding: 0}}>
       <Nav>
         <Logo to="/">
-          <img
-            src="/logo.png"
-            alt="logo"
-          />
+          {
+            // Was a logo here, can replace if wanted
+          }
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
@@ -25,7 +24,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            href="https://linkedin.com/in/brendanlapuma"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -32,7 +32,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Pedro.',
+                  'Hi, I\'m Brendan.',
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -44,9 +44,9 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    'A Full-Stack Developer and Data Scientist.',
                     1000,
-                    'A BCIT graduate.',
+                    'An undergraduate at the University of Maryland - College Park.',
                     // 'I design and code beautifully simple things, and I love what I do.',
                     1000,
                     'A problem solver.',
@@ -91,14 +91,6 @@ function Hero() {
             </ScrollAnimation>
 
           </HeroLeft>
-          <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
-              <Image
-                src="/man-svgrepo-com.svg"
-                alt="man-svgrepo"
-              />
-            </ScrollAnimation>
-          </HeroRight>
         </HeroWrapper>
         {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
