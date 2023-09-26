@@ -17,24 +17,16 @@ function About() {
         <div className="BigCard">
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Brendan LaPuma</strong>. I'm pretty cool.
-            </ScrollAnimation>
-
-            <br /><br />
-            
-            <ScrollAnimation animateIn="fadeInLeft">
-            cool stuff 1
+            Hello! My name is <strong>Brendan LaPuma</strong>. I'm a full-stack software developer, data scientist, and undergraduate Junior at the University of Maryland - College Park, majoring in Computer Science with a concentration in machine learning and minoring in Philosophy. I am currently searching for relevant industry experience through internships relating to software development, data science, machine learning, and/or artificial intelligence.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              cool stuff 2
               <div className="tagline2">
-                I have experience through projects and industry experience with the following technologies:
+                I have projects and industry experience using the following technologies:
               </div>
             </ScrollAnimation>
-            
 
             <Technologies>
               {stackList.map((stack, index) => (
