@@ -22,7 +22,7 @@ export const ProjectList = [
     title: "Gradescope C Auto Grader",
     description: "An auto-grader created for the University of Maryland, utilizing differential output tests in isolated docker containers to test students' C programs.",
     tech_stack: ['Python', 'C', 'Docker'],
-    github_url: "https://github.com/brendanlapuma/gradescope_autograder_test",
+    github_url: "https://github.com/brendanlapuma/gradescope_c_autograder",
     demo_url: "",
   },
   {
