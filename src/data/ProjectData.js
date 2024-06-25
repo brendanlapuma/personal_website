@@ -1,43 +1,28 @@
 // --------------------------------------- Project List
+import Pdf from './470proj.pdf'
 export const ProjectList = [
   {
-    img: "/mmadness.png",
-    title: "March Madness Machine Learning Competition",
-    description: "A deep neural network that predicts outcomes of NCAA March Madness games (placed top 50% in Kaggle competition)",
-    tech_stack: ["TensorFlow", "Numpy/Pandas", "Jupyter Notebook", "Python"],
-    github_url: "https://github.com/brendanlapuma/March-Madness-Machine-Learning-Competition",
+    img: "/nba.png",
+    title: "Deep Learning Classification of NBA 3-Point Shots",
+    description: "A recurrent neural network classifying shot attempts based on player positions and statistics (surpassed available results of similar papers)",
+    tech_stack: ["PyTorch", "Numpy/Pandas", "Jupyter Notebook", "Python"],
+    github_url: "",
+    demo_url: Pdf,
+  },
+  {
+    img: "/gradescope.png",
+    title: "Gradescope C Auto Grader",
+    description: "An auto-grader created for the University of Maryland, utilizing parallelized differential output tests in isolated docker containers to test students' C programs",
+    tech_stack: ['Python', 'C', 'Docker'],
+    github_url: "https://github.com/brendanlapuma/gradescope_c_autograder",
     demo_url: "",
   },
   {
     img: "/liberty.png",
     title: "Customer Review Sentiment Analysis Portal",
     description:
-      "A natural language processing model housed in a Flask server with corresponding front-end displaying computed sentiment of online company reviews. Project was a finalist in the Liberty Mutual Intern Hackathon, source code omitted for confidentiality.",
+      "A natural language processing model housed in a Flask server with corresponding front-end displaying computed sentiment of online company reviews. Project was a finalist in the Liberty Mutual Intern Hackathon, source code omitted for confidentiality",
     tech_stack: ['React.js', 'Flask', 'Python', 'Scikit-Learn'],
-    github_url: "",
-    demo_url: "",
-  },
-  {
-    img: "/gradescope.png",
-    title: "Gradescope C Auto Grader",
-    description: "An auto-grader created for the University of Maryland, utilizing differential output tests in isolated docker containers to test students' C programs.",
-    tech_stack: ['Python', 'C', 'Docker'],
-    github_url: "https://github.com/brendanlapuma/gradescope_c_autograder",
-    demo_url: "",
-  },
-  {
-    img: "/ocaml.png",
-    title: "Custom Programming Language - MicroCaml",
-    description: "A lexer, parser, and interpreter written in declarative Ocaml for a custom programming language called MicroCaml. Source code available upon request (cannot post publicly).",
-    tech_stack: ['Ocaml'],
-    github_url: "",
-    demo_url: "",
-  },
-  {
-    img: "/shell2.png",
-    title: "Simple Shell",
-    description: "Created a simple shell from scratch using I/O control in C. Source code available upon request (cannot post publicly).",
-    tech_stack: ['C', 'Linux'],
     github_url: "",
     demo_url: "",
   },
@@ -47,12 +32,20 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-    name: "Git",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg",
+    name: "Kubernetes",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    name: "NodeJS",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/rancher/rancher-original.svg",
+    name: "Rancher",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg",
+    name: "Docker",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    name: "Git",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -71,24 +64,20 @@ export const stackList = [
     name: "Java",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-    name: "MySQL",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg",
-    name: "Docker",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     name: "AWS Lambda"
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
     name: "TensorFlow"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+    name: "PyTorch",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg",
@@ -119,7 +108,11 @@ export const stackList = [
     name: "Ruby",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg",
     name: "Rust",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    name: "NodeJS",
   },
 ];
