@@ -18,10 +18,19 @@ export const ProjectList = [
     demo_url: "",
   },
   {
+    img: "/openai.png",
+    title: "GPT Selector",
+    description:
+      "A LLM query analyzer that automatically selects GPT-3 or GPT-4 to answer questions, saving compute power, minimizing costs, and mitigating carbon emissions. Winner of 2024 Liberty Mutual Intern Hackathon.",
+    tech_stack: ['React.js', 'Flask', 'Python', 'OpenAI API'],
+    github_url: "",
+    demo_url: "",
+  },
+  {
     img: "/liberty.png",
     title: "Customer Review Sentiment Analysis Portal",
     description:
-      "A natural language processing model housed in a Flask server with corresponding front-end displaying computed sentiment of online company reviews. Project was a finalist in the Liberty Mutual Intern Hackathon, source code omitted for confidentiality",
+      "A natural language processing model housed in a Flask server with corresponding front-end displaying computed sentiment of online company reviews. Finalist in 2023 Liberty Mutual Intern Hackathon.",
     tech_stack: ['React.js', 'Flask', 'Python', 'Scikit-Learn'],
     github_url: "",
     demo_url: "",
