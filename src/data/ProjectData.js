@@ -2,6 +2,15 @@
 import Pdf from './470proj.pdf'
 export const ProjectList = [
   {
+    img: "/openai.png",
+    title: "GPT Selector",
+    description:
+      "A LLM query analyzer that automatically selects GPT-3 or GPT-4 to answer questions, saving compute power, minimizing costs, and mitigating carbon emissions. Winner of 2024 Liberty Mutual Intern Hackathon.",
+    tech_stack: ['React.js', 'Flask', 'Python', 'OpenAI API'],
+    github_url: "",
+    demo_url: "https://drive.google.com/file/d/1691NG6uvS_FT_dmkG1v2JsS970HDH36o/view?usp=sharing",
+  },
+  {
     img: "/nba.png",
     title: "Deep Learning Classification of NBA 3-Point Shots",
     description: "A recurrent neural network classifying shot attempts based on player positions and statistics (surpassed available results of similar papers)",
@@ -15,15 +24,6 @@ export const ProjectList = [
     description: "An auto-grader created for the University of Maryland, utilizing parallelized differential output tests in isolated docker containers to test students' C programs",
     tech_stack: ['Python', 'C', 'Docker'],
     github_url: "https://github.com/brendanlapuma/gradescope_c_autograder",
-    demo_url: "",
-  },
-  {
-    img: "/openai.png",
-    title: "GPT Selector",
-    description:
-      "A LLM query analyzer that automatically selects GPT-3 or GPT-4 to answer questions, saving compute power, minimizing costs, and mitigating carbon emissions. Winner of 2024 Liberty Mutual Intern Hackathon.",
-    tech_stack: ['React.js', 'Flask', 'Python', 'OpenAI API'],
-    github_url: "",
     demo_url: "",
   },
   {
