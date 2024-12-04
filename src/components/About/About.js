@@ -17,7 +17,7 @@ function About() {
         <div className="BigCard">
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Brendan LaPuma</strong>. I'm a full-stack software developer and undergraduate Senior at the University of Maryland - College Park, majoring in Computer Science and minoring in Philosophy. I am currently searching for a full-time role relating to software development, platform engineering, data science, and/or machine learning.
+            Hello! My name is <strong>Brendan LaPuma</strong>. I'm an undergraduate Senior at the University of Maryland - College Park, majoring in Computer Science and minoring in Philosophy.
             </ScrollAnimation>
 
             <br /><br />

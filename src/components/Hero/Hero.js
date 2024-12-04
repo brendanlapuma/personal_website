@@ -36,7 +36,7 @@ function Hero() {
                       'Hi, I\'m Brendan.',
                       //() => setShowSubtitle(true)
                     ]}
-                    speed={{ type: "keyStrokeDelayInMs", value: 150 }}
+                    speed={{ type: "keyStrokeDelayInMs", value: 100 }}
                     wrapper="h1"
                     repeat={0}
                   />
@@ -47,8 +47,6 @@ function Hero() {
                         3000,
                         '',
                         700,
-                        'A Full-Stack Software Developer and Student',
-                        1200,
                         'An undergraduate at the University of Maryland - College Park.',
                         // 'I design and code beautifully simple things, and I love what I do.',
                         1200,
